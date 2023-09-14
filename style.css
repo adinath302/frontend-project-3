@@ -1,0 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0%;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-image: url("old-factory-1527392.jpg");
+    background-size: cover;
+}
+
+/* navbar  */
+.navbar {
+    height: 50px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+.nav-logo {
+    align-items: center;
+    margin-left: 250px
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.search-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.search-box img {
+    color: white;
+}
+
+.nav-text {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0px;
+}
+
+.nav-text li {
+    list-style: none;
+    font-size: 18px;
+    margin: 40px;
+}
+
+/* header  */
+.header {
+    display: flex;
+    height: 100%;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    margin-top: 100px;
+    font-size: larger;
+}
+.h-text{
+    margin-top: 30px;
+}
+.h-t-p{
+    font-size: 20px;
+}
+button{
+    margin-top: 30px;
+    font: 40px;
+}
